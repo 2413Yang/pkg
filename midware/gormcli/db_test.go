@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/2413Yang/pkg/midware/constant"
-	"github.com/2413Yang/pkg/midware/log"
+	"github.com/BitofferHub/pkg/constant"
+	"github.com/BitofferHub/pkg/middlewares/log"
 )
 
 type UrlMap struct {

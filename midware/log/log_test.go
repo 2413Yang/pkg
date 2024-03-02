@@ -3,10 +3,9 @@ package log
 import (
 	"context"
 	"fmt"
-	"testing"
-
-	"github.com/2413Yang/pkg/midware/constant"
+	"github.com/BitofferHub/pkg/constant"
 	"github.com/smartystreets/goconvey/convey"
+	"testing"
 )
 
 func TestLog(t *testing.T) {

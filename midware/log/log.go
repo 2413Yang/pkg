@@ -2,14 +2,13 @@ package log
 
 import (
 	"context"
-	"os"
-	"path/filepath"
-	"runtime"
-
-	"github.com/2413Yang/pkg/midware/constant"
+	"github.com/BitofferHub/pkg/constant"
 	rotatelogs "github.com/lestrrat-go/file-rotatelogs"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
+	"os"
+	"path/filepath"
+	"runtime"
 )
 
 var (

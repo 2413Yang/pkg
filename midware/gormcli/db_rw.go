@@ -2,12 +2,11 @@ package gormcli
 
 import (
 	"fmt"
-	"time"
-
-	"github.com/2413Yang/pkg/midware/log"
+	"github.com/BitofferHub/pkg/middlewares/log"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/plugin/dbresolver"
+	"time"
 )
 
 // 读写分离配置

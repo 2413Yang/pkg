@@ -3,13 +3,12 @@ package lock
 import (
 	"errors"
 	"fmt"
-	"sync/atomic"
-	"time"
-
-	"github.com/2413Yang/pkg/midware/cache"
+	"github.com/BitofferHub/pkg/middlewares/cache"
 	"github.com/google/uuid"
 	"golang.org/x/net/context"
 	"golang.org/x/sync/singleflight"
+	"sync/atomic"
+	"time"
 )
 
 const (

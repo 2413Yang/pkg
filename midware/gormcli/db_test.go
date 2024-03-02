@@ -2,10 +2,11 @@ package gormcli
 
 import (
 	"context"
-	"github.com/BitofferHub/pkg/constant"
-	"github.com/BitofferHub/pkg/middlewares/log"
 	"testing"
 	"time"
+
+	"github.com/BitofferHub/pkg/constant"
+	"github.com/BitofferHub/pkg/middlewares/log"
 )
 
 type UrlMap struct {
@@ -112,5 +113,4 @@ func TestRwDB(t *testing.T) {
 }
 
 func TestShardingSphere(t *testing.T) {
-
 }

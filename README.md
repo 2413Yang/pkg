@@ -60,3 +60,16 @@ gcc --version
 
 # 安装gfortran, 指定版本
 sudo apt-get install gfortran-5
+# 安装Cmake
+sudo wget https://cmake.org/files/v3.15/cmake-3.15.7-Linux-x86_64.tar.gz
+tar -xzf cmake-3.15.7-Linux-x86_64.tar.gz
+sudo mv cmake-3.15.7-Linux-x86_64 /opt
+
+# 修改bashrc
+gedit ~/.bashrc 
+export PATH=/opt/cmake-3.15.7-Linux-x86_64/bin:$PATH
+
+# 设置完成后需要刷新一下
+source ~/.bashrc
+# 确认是否安装成功
+cmake --version
